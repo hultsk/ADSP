@@ -13,4 +13,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Services.Client" Version="16.205.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+  </ItemGroup>
+
 </Project>
